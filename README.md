@@ -1,47 +1,21 @@
-## Getting Started
+# Web3 Crowdfunding
 
-Create a project using this example:
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+Web3 Crowdfunding is a decentralized crowdfunding application built with React, Hardhat, and web3.js. It allows users to create and contribute to crowdfunding campaigns using the Ethereum blockchain. With the power of blockchain technology, Web3 Crowdfunding enables secure and transparent fundraising for various projects and causes.
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+## Features
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+- Create and manage crowdfunding campaigns using Ethereum smart contracts.
+- Contribute funds to campaigns securely using a web3-enabled browser or MetaMask.
+- View campaign details such as funding progress, contributors, and the campaign owner.
+- Connect with the Goerli testnet.
+- Responsive and intuitive user interface for seamless interaction.
 
-## Building the project
+## Tech stack
+- React frontend
+- Hardhat/Solidity backend
+- Thirdweb to interact with the smart contract
 
-After any changes to the contract, run:
+This project is my implementation of the following JavaScript Mastery tutorial: https://www.youtube.com/watch?v=BDCT6TYLYdI
 
-```bash
-npm run build
-# or
-yarn build
-```
-
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
-
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
